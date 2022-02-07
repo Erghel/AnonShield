@@ -24,11 +24,16 @@ button:active {
 .butt {
     margin-left: 185px;
 }
-textarea {
+textarea, img, h1 {
     text-align: center;
     margin-left: 150px;
     font-family: 'Roboto', sans-serif;
 }
 p, a {
  font-family: 'Roboto', sans-serif;
+}
+
+figcaption {
+    color: rgb(238, 84, 84);
+    font-weight: 900;
 }
