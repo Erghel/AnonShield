@@ -1,14 +1,11 @@
 body {
-    background-color: rgb(206, 206, 206);
-}
-
-#cr {
-    font-size: 30px;
-    text-align: left;
-    font-weight: 800;
+    background-color: rgba(245, 239, 248, 0.445);
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     border: 2px solid #000000;
     background-color: rgb(169, 232, 248);
@@ -22,4 +19,16 @@ button:active {
 #proxy {
     font-size: 16px;
     font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+}
+.butt {
+    margin-left: 185px;
+}
+textarea {
+    text-align: center;
+    margin-left: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+p, a {
+ font-family: 'Roboto', sans-serif;
 }

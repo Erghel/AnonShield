@@ -189,4 +189,4 @@ function GetProxy() {
     heading.textContent = formatted
 }
 
-getProxy()
+GetProxy();
