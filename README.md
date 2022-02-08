@@ -6,3 +6,6 @@
 
 <h2>ToDo</h2>
 <a href="https://github.com/Erghel/SOCKSy/projects/1">ToDo</a>
+
+<h2>Пожелания/Исправления</h2>
+<a href="https://github.com/Erghel/SOCKSy/issues/1">Сюда!</a>
