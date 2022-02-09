@@ -260,13 +260,13 @@ let proxy = [
     "216.245.192.130:15768",
     "103.141.12.190:1080",
     "152.70.246.237:40009"
-];
-const heading = document.getElementById("proxy")
+]; // Список Proxy серверов
+const heading = document.getElementById("proxy") // Ищем textarea
 
 function GetProxy() {
-    const randomIndex = Math.floor(Math.random() * proxy.length)
+    const randomIndex = Math.floor(Math.random() * proxy.length) // Для выбора рандомного Proxy 
 
-    let formatted = JSON.stringify(proxy[randomIndex], null, 4)
+    let formatted = JSON.stringify(proxy[randomIndex], null, 4) // Форматирование Proxy, чтоб вывести его без мусора
     heading.textContent = formatted
 }
 
