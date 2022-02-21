@@ -267,7 +267,7 @@ function GetProxy() {
     const randomIndex = Math.floor(Math.random() * proxy.length); // Для выбора рандомного Proxy 
 
     let formatted = JSON.stringify(proxy[randomIndex], null, 4); // Форматирование Proxy, чтоб вывести его без мусора
-    heading.textContent = formatted
+    heading.textContent = formatted;
 }
 
-GetProxy();
+document.querySelector("#request").addEventListener('click', GetProxy);
