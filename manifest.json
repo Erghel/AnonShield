@@ -1,9 +1,7 @@
-
-
 {
   "manifest_version": 2,
   "name": "SOCKSy",
-  "description": "Rroxy (SOCKS5) generator",
+  "description": "Proxy (SOCKS5) generator. Takes proxy from public proxy lists and give it ti you.",
   "version": "1.0",
 
   "background": {
@@ -13,7 +11,7 @@
     "48": "images/1.png"
   },
   "browser_action": {
-    "default_title": "SOCSy",
+    "default_title": "SOCKSy",
     "default_icon": "images/1.png",
     "default_popup": "index.html"
   },
