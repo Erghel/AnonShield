@@ -1,15 +1,18 @@
 body {
     background-color: rgba(245, 239, 248, 0.445);
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    flex-direction: column;
 }
+
 button {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     border: 2px solid #000000;
     background-color: rgb(169, 232, 248);
 }
+
 button:active {
     border: 2px solid #000000;
     background-color: #fc5c5c;
@@ -21,14 +24,13 @@ button:active {
     font-weight: 1000;
     font-family: 'Roboto', sans-serif;
 }
-.butt {
-    margin-left: 185px;
-}
-textarea, img, h1 {
+
+img, h1 {
     text-align: center;
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: 'Roboto', sans-serif;
 }
+
 p, a {
  font-family: 'Roboto', sans-serif;
 }
@@ -36,4 +38,21 @@ p, a {
 figcaption {
     color: rgb(238, 84, 84);
     font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 40px;
+}
+
+textarea {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.butt {
+    margin-left: 110px;
 }
