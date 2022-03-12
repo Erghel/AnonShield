@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "SOCKSy",
-  "description": "Proxy (SOCKS5) generator. Takes proxy from public proxy lists and give it ti you.",
+  "name": "Fredge",
+  "description": "Freedom Bridge - Fredge. Proxy (SOCKS5/HTTPS) generator. Takes proxy from public proxy lists and give it ti you.",
   "version": "1.0",
 
   "background": {
