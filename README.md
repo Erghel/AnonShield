@@ -1,4 +1,4 @@
-<h1 align="center">FreedomBridge</h1> 
+<h1 align="center">FreedomBridge - Fredge</h1> 
 <p>Расширение, которое позволит получить <b>Proxy</b> (SOCKS5/HTTPS), из свободно размещенных листов <b><a href="https://github.com/jetkai/proxy-list">Proxy List</a> и <a href="https://github.com/monosans/proxy-list">Proxy List</a></b>.</p>
 <p>Расширение позволит вам изменить свой адрес или попасть на заблокированный в вашей стране сайт.</p>
 <p><b>ВНИМАНИЕ!</b> Мы не несем ответственность за безопасноть этих <b>Proxy</b> (вашей информации, которую вы передадите по этим Proxy) и за совершенные с помощью этого расширения действия.</p>
