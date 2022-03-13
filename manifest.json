@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Fredge",
   "description": "Freedom Bridge - Fredge. Proxy (SOCKS5/HTTPS) generator. Takes proxy from public proxy lists and give it ti you.",
-  "version": "1.0",
+  "version": "0.0.1",
 
   "background": {
     "scripts": ["script.js"]
@@ -11,7 +11,7 @@
     "48": "images/1.png"
   },
   "browser_action": {
-    "default_title": "SOCKSy",
+    "default_title": "Fredge",
     "default_icon": "images/1.png",
     "default_popup": "index.html"
   },
