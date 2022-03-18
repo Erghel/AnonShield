@@ -6,16 +6,23 @@ body {
     flex-direction: column;
 }
 
-.button1 {
-    color: #232323;
-    background: transparent;
-    border: 1px solid #232323;
-    font-size: 14px;
-    letter-spacing: .2em;
-    font-family: 'Roboto', sans-serif;
-    padding: 17px 1px 17px 1px;
+button { 
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
     cursor: pointer;
-    font-weight: 800; 
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
 }
 
 button:active {
@@ -37,6 +44,8 @@ img, h1 {
 
 p, a {
  font-family: 'Roboto', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
 }
 
 figcaption {
