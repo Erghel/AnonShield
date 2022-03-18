@@ -6,17 +6,21 @@ body {
     flex-direction: column;
 }
 
-button {
+.button1 {
+    color: #232323;
+    background: transparent;
+    border: 1px solid #232323;
+    font-size: 14px;
+    letter-spacing: .2em;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    border: 2px solid #000000;
-    background-color: rgb(169, 232, 248);
+    padding: 17px 1px 17px 1px;
+    cursor: pointer;
+    font-weight: 800; 
 }
 
 button:active {
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     background-color: #fc5c5c;
-    transition: color 0s;
 }
 
 #proxy {
