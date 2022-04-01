@@ -5,7 +5,7 @@
 <p>Мы не советуем передавать чувствительную информацию (пароли, логины, данные кредитных карт и любую другую информацию), пока вы используете <b>Proxy</b>. Также, при неработоспособности Proxy - лучше запросить новый.</p>
 
 <h2>ToDo</h2>
-<a href="https://github.com/Erghel/SOCKSy/projects/1">ToDo</a>
+<a href="https://github.com/Erghel/BrokeBedrock/projects/1">ToDo</a>
 
 <h2>Пожелания/Исправления</h2>
-<a href="https://github.com/Erghel/SOCKSy/issues/1">Сюда!</a>
+<a href="https://github.com/Erghel/BrokeBedrock/issues/1">Сюда!</a>
