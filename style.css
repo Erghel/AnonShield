@@ -1,71 +1,99 @@
+html {
+    font-size: 100%;
+    height: auto;
+}
+
 body {
-    background-color: rgba(245, 239, 248, 0.445);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    max-width: 320px;
+    padding: 1rem;
 }
 
-button { 
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    text-align: center;
 }
 
-.button1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
+pre {
+    margin: 0;
 }
 
-button:active {
-    border: 1px solid #000000;
-    background-color: #fc5c5c;
+.logo {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 #proxy {
-    font-size: 16px;
-    font-weight: 1000;
-    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 1em;
+    overflow: auto;
 }
 
-img, h1 {
-    text-align: center;
-    margin-left: 100px;
-    font-family: 'Roboto', sans-serif;
+.text_placeholder {
+    opacity: 0.4;
 }
 
-p, a {
- font-family: 'Roboto', sans-serif;
- font-size: 20px;
- font-weight: 600;
+.button {
+    width: 100%;
+    /*padding: 1em;*/
 }
 
-figcaption {
-    color: rgb(238, 84, 84);
-    font-weight: 900;
+.indent {
+    width: 100%;
+    padding: 0 10%;
+    border-top: 1px solid #9e9e9e;
+    margin: 1em 0;
+}
+
+.inputs {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.inputs input {
+    border: 1px solid green;
+}
+
+.inputs .input_error {
+    border: 1px solid red;
+}
+
+.inputs .input_error:active {
+    border: 1px solid red;
+}
+
+.inputs .input_error:focus {
+    border: 1px solid red;
+}
+
+#userIp {
+    flex-basis: 70%;
+}
+
+#userPort {
+    flex-basis: 30%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    padding: 40px;
+    /*gap: 0.6rem;*/
 }
 
-textarea {
+.tooltip {
+    position: fixed;
+    padding: 10px 20px;
+    border: 1px solid #b3c9ce;
+    border-radius: 4px;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 80px;
-}
-
-.butt {
-    margin-left: 110px;
+    font: italic 14px/1.3 sans-serif;
+    color: #333;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
