@@ -4,9 +4,9 @@
   "description": "Freedom Bridge - Fredge. Proxy (SOCKS5/HTTPS) generator. Takes proxy from public proxy lists and give it ti you.",
   "version": "0.0.1",
 
-  "background": {
-    "scripts": ["script.js"]
-  },
+  // "background": {
+    // "scripts": ["script.js"] // Теперь это скрипт Popup
+  // },
   "icons": {
     "48": "images/1.png"
   },
@@ -24,11 +24,12 @@
     "unlimitedStorage",
     "contextMenus",
     "webNavigation",
-    "tabs"
+    "tabs",
+    "proxy",
+    "privacy",
+    "browserSettings"
   ],
-  "optional_permissions": [
-    "history"
-  ],
+  "optional_permissions": ["history"],
   "browser_specific_settings": {
     "gecko": {
       "strict_min_version": "55.0a2"

@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Fredge</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    <div class="container">
-        <p>Взятые из открытого источника <b>Proxy</b> (<b>SOCKS5/HTTPS</b>), </br>
-            которые вы сможете использовать, </br>
-            чтобы зайти на заблокированные сайты или изменить свой IP-адрес</p>
-        <!-- <a target="_blank" href="./pages/proxysett.html">Как настроить?</a> -->
-        <div>
-            <textarea readonly id="proxy"></textarea>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Fredge</title>
+        <link rel="stylesheet" href="./libs/picnic.min.css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <img class="logo" src="img/128.png" alt="Logo" />
+        <div class="container">
+            <p>
+                Взятые из открытого источника
+                <b>Proxy</b> (<b>SOCKS5/HTTPS</b>), <br />
+                которые вы сможете использовать, <br />
+                чтобы зайти на заблокированные сайты или изменить свой IP-адрес
+            </p>
+            <p>
+                Разрешите расширению работать в приватном режиме, иначе эти
+                настройки не заработают.
+            </p>
+            <!-- <a target="_blank" href="./pages/proxysett.html">Как настроить?</a> -->
+            <div class="indent"></div>
+            <h2>Получить Proxy</h2>
+            <pre><code id="proxy"><span class="text_placeholder">Тут появится IP и порт</span></code></pre>
+            <button class="button" id="request">Получить Proxy</button>
+            <button class="button" id="btn_setProxy" disabled>Установить этот Proxy</button>
+            <div class="indent"></div>
+            <h2>Установить пользовательские настройки Proxy</h2>
+            <span>Введите IP и порт Proxy:</span>
+            <div>
+                <div class="inputs">
+                    <input
+                        id="userIp"
+                        type="text"
+                        placeholder="***.***.***.***" data-tooltip="Неверный<br>IP!"
+                    />:<input id="userPort" type="text" placeholder="*****" data-tooltip="Неверный<br>порт!" />
+                </div>
+                <button class="button" id="btn_setUserProxy" disabled>
+                    Установить Proxy
+                </button>
+            </div>
+            <div class="indent"></div>
+            <h2>Отключить Proxy</h2>
+            <div>
+                <button class="button" id="btn_disableProxy">
+                    Отключить Proxy
+                </button>
+            </div>
         </div>
-        <div class="butt">
-            <button class="button1" id="request">Получить Proxy</button>
-        </div>
-        <script src="script.js"></script>
-</body>
-
+        <script src="./script.js" type="module"></script>
+    </body>
 </html>
