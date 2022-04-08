@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "BrokeBedrock",
-  "description": "BrokeBedrock - set up a free proxy and bypass the blocks!",
+  "name": "AnonShield",
+  "description": "AnonShield - set up a free proxy and bypass the blocks!",
   "version": "1.0.0",
   "icons": {
     "48": "images/1.png"
   },
   "browser_action": {
-    "default_title": "BrokeBedrock",
+    "default_title": "AnonShield",
     "default_icon": "img/1.png",
     "default_popup": "index.html"
   },
