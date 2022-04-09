@@ -24,8 +24,9 @@ pre {
 
 .logo {
     display: block;
-    border-radius: 50%;
     margin: 0 auto;
+    height: auto;
+    width: 6em;
 }
 
 #proxy {
