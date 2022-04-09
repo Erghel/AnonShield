@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/logo48.webp" alt="Logo"></img>
+
+</p>
 <h1 align="center">AnonShield</h1> 
 <p>Расширение, которое позволит получить <b>Proxy</b> (HTTPS), из свободно размещенных листов. <!--<b><a href="https://github.com/jetkai/proxy-list">Proxy List</a> и <a href="https://github.com/monosans/proxy-list">Proxy List</a></b>.</p>-->
 <p>Расширение позволит вам изменить свой адрес или попасть на заблокированный в вашей стране сайт.</p>
