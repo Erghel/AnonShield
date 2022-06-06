@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">AnonShield</h1> 
 
-Расширение, которое позволит получить **Proxy** (HTTPS), из свободно размещенных листов. <!-- **[Proxy List](https://github.com/jetkai/proxy-list) и [Proxy List](https://github.com/monosans/proxy-list)**. -->
+Расширение, которое позволит получить **HTTPS-proxy**, из свободно размещенных листов. <!-- **[Proxy List](https://github.com/jetkai/proxy-list) и [Proxy List](https://github.com/monosans/proxy-list)**. -->
 
 Расширение позволит вам изменить свой адрес или попасть на заблокированный в вашей стране сайт.
 
